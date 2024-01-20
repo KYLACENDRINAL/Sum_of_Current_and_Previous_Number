@@ -9,3 +9,6 @@ previous_num=0
 for i in range (1, 11):
     sum=previous_num+i
     
+# Print/display the output or the sum of the current and previous number
+    print("Current Number", i, "Previous Number", previous_num, "Sum:", sum)
+    previous_num=i
